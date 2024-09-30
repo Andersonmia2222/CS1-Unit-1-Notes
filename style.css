@@ -1,0 +1,17 @@
+/* this is a CSS COMMENT */
+
+/* Select by element type */
+p {
+    color: rgb(225, 17, 177);
+}
+
+/* Select by class name*/
+.border{
+    border: 2px solid rgba(226, 161, 233, 0.985);
+}
+
+/* Select by ID name */
+#intro{
+    background-color:pink;
+
+}

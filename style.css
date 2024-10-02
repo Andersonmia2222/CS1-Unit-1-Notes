@@ -5,9 +5,14 @@ p {
     color: rgb(225, 17, 177);
 }
 
+ h1, h2, h3 {
+font-family: cursive; 
+ }
+
 /* Select by class name*/
 .border{
-    border: 2px solid rgba(226, 161, 233, 0.985);
+    border: 2px solid rgba(145, 37, 157, 0.985);
+    background-color:rgb(200, 174, 196);
 }
 
 /* Select by ID name */
@@ -15,3 +20,17 @@ p {
     background-color:pink;
 
 }
+/*Properties: colors and typography */
+strong {
+    color:rgb(130, 130, 205); 
+    background-color:rgba(178, 142, 223, 0.381);
+   font-family:impact;
+    font-weight:600;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+
+}
+

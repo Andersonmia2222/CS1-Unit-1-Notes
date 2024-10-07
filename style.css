@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
 /* this is a CSS COMMENT */
 
 /* Select by element type */
+body{
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(227, 195, 218);
+}
 p {
     color: rgb(225, 17, 177);
 }
 
  h1, h2, h3 {
-font-family: cursive; 
+    font-family: "Edu AU VIC WA NT Guides", cursive; 
+    color:rgb(21, 27, 143);
  }
 
 /* Select by class name*/
@@ -24,7 +32,7 @@ font-family: cursive;
 strong {
     color:rgb(130, 130, 205); 
     background-color:rgba(178, 142, 223, 0.381);
-   font-family:impact;
+   font-family:
     font-weight:600;
     font-style: italic;
 }

@@ -33,12 +33,14 @@ strong {
     color:rgb(130, 130, 205); 
     background-color:rgba(178, 142, 223, 0.381);
    font-family:
-    font-weight:600;
+    font-weight:100;
     font-style: italic;
 }
 
 h1{
     text-align: center;
+    padding: 15px;
+    margin:25px;
 
 }
 
@@ -48,8 +50,16 @@ img {
     border-style:double;
     border-color:rgb(235, 11, 123);
     border-radius:30%;
+}
     
+    /* Tip how to center anything*/
+    .centered {
+        margin:auto;
+        text-align: center;
+       
     }
+
+
     hr{
         border-width:5px;
         border-sytle:Groove;

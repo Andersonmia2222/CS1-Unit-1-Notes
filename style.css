@@ -42,3 +42,16 @@ h1{
 
 }
 
+/*Box margin, border, padding, content */
+img {
+    border-width: 2px;
+    border-style:double;
+    border-color:rgb(235, 11, 123);
+    border-radius:30%;
+    
+    }
+    hr{
+        border-width:5px;
+        border-sytle:Groove;
+        border-color:blueviolet;
+    }
